@@ -90,6 +90,10 @@ input[type=checkbox] {
   user-select: none;
 }
 
+.mr-15 {
+  margin-right: 15px;
+}
+
 @media (max-width: 768px) {
   .menu {
     display: none;
@@ -191,4 +195,20 @@ input[type=checkbox] {
 
 .bg-teal {
   background-color: teal;
+}
+
+.video {
+  width: 600px;
+}
+
+@media (max-width: 768px) {
+  .talha img {
+  width: 320px;
+  height: 320px;
+  }
+  .video {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+  }
 }
